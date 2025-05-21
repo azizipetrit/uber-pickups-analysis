@@ -1,0 +1,15 @@
+app:
+  title: "Uber Pickups Analysis"
+  favicon: "🚖"
+  layout: "wide"
+
+data:
+  source_url: "https://s3-us-west-2.amazonaws.com/streamlit-demo-data/uber-raw-data-sep14.csv.gz"
+  max_rows: 10000
+
+map:
+  default_location:
+    latitude: 40.7831
+    longitude: -73.9712
+    zoom: 11
+    pitch: 50
